@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t converter:dev .
+docker build -f Dockerfile.prod -t converter:prod .
