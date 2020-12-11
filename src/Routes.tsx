@@ -85,6 +85,8 @@ const About: React.FC = () => {
   return (
     <Container maxWidth="lg">
         <h1>About</h1>
+        <Divider light />
+        <p>&copy; 2020 - Johann Dettling</p>
     </Container>
   );
 };
